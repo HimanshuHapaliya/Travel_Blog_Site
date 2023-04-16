@@ -1,0 +1,375 @@
+*{
+    box-sizing:bordre-box;
+    margin:0;
+}
+body{
+    font-family: 'Nunito',sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+html{
+    font-size: 62.5%;
+}
+.text-pink{
+    color:rgb(245, 80, 107);
+}
+.text-light{
+    color: white;
+}
+.text-dark{
+    color:black;
+}
+.text-gray
+{
+    color:gray;
+}
+
+h1,h2,h3{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.2em;
+}
+.lg-heading
+{
+    font-size: 3.5rem;
+}
+.md-heading
+{
+    font-size: 2.2rem;
+}
+
+.header
+{
+    position:relative;
+    height:95vh;
+    background-image: url('https://wallpapercave.com/wp/wp3917582.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    padding-top: 2rem;
+}
+
+.navbar .logo
+{
+    float:left;
+    font-size: 3.5rem;
+}
+.navbar a:link,.navbar a:visited
+{
+    color:white;
+}
+
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+p,li{
+    font: size 1.6rem;
+    margin-bottom: 1em;
+    letter-spacing: 0.2em;
+}
+
+.container
+{
+    max-width: 1200px;
+    width:70%;
+    margin:0 auto;
+}
+
+.navbar .navitem
+{
+    display: inline-block;
+    padding-right:3rem;
+}
+
+.navbar .navitems
+{
+    float:right;
+}
+
+.navbar::after{
+    content: '';
+    display:block;
+    clear: both;
+}
+.header-content p
+{
+    font-size: 2rem;
+}
+.btn
+{
+    display:inline-block;
+    padding : 0.5em 1.5em;
+    border-radius: 2rem;
+}
+.btn-primary
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.header-content
+{
+    text-align: center;
+   position:absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.showcase
+{
+    padding:10rem 0;
+}
+.row
+{
+    height:300px;
+    margin-bottom: 5rem;
+    background-color: white;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.185);
+}
+
+.row1 .img-box,.row2 .text
+{
+    float:left;
+    width:50%;
+    height:100%;
+    box-sizing: border-box;
+}
+.row1 .text,.row2 .img-box
+{
+    float:right;
+    width:50%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.showcase .row .img-box img{
+    display: inline-block;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    
+}
+.btn1
+{
+    border:1px solid red;
+    color:red;
+    border-radius: 3rem;
+    padding: 0.5em 1.5em;
+}
+.text{
+    padding: 3rem;
+}
+.feature
+{
+    background-color: white;
+    padding: 5rem 0;
+}
+.part
+{
+    box-sizing: border-box;
+    width:33.33%;
+    float:left;
+    text-align: center;
+    padding: 2rem;
+}
+.boxwrapper
+{
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.548);
+}
+.boxwrapper::after
+{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.part1 ,.part3
+{
+    background-color: rgb(136, 62, 233);
+    color: #fff;
+}
+.part2
+{
+    background-color: rgb(245, 80, 107);
+    color: #fff;
+}
+.footer
+{
+    padding: 1rem;
+    background-color:rgb(136, 62, 233) ;
+    text-align: center;
+}
+.socialmedia
+{
+    margin-bottom: 2rem;
+}
+i{
+    margin-right: 3rem;
+}
+/* about */
+.about{
+    padding:2rem 0;
+}
+.navbg
+{
+    background-color:rgb(136, 62, 233) ;
+}
+.habout {
+    border-bottom:5px solid rgb(245, 80, 107) ;
+}
+.instruct
+{
+    padding: 2rem 0;
+    font-size: 15px;
+}
+.instruct .le
+{
+    float:left;
+    width:50%;
+}
+.instruct .ri
+{
+    float:right;
+    width:50%;
+}
+.instruct::after
+{
+    content: '';
+    display: block;
+    clear:both;
+}
+table{
+    text-align: center;
+    font-size: 20px;
+    font-style: bold;
+}
+.banner
+{
+    padding: 1rem 2rem;
+    background-color: rgb(245, 80, 107);
+    margin-top: 5rem;
+}
+.banner .que
+{
+    float:left;
+    margin-top: 1rem;
+}
+.banner .conbtn
+{
+    float:right;
+}
+.banner::after
+{
+    content: '';
+    display: block;
+    clear:both;
+}
+.conbtn
+{
+    border: 4px solid white;
+    padding: 1rem;
+    letter-spacing: 4px;
+}
+/* contact */
+.details
+{
+    padding: 4rem 0;
+    float:left;
+    width:50%;
+}
+.details .fas,.details h2
+{
+    display: inline;
+}
+.details p
+{
+    font-size: 1.5rem;
+    margin-top: 1em;
+}
+.contact
+{
+    box-sizing: border-box;
+    display: inline-block;
+    border-bottom: 4px solid rgb(245, 80, 107);
+}
+.contactform
+{
+    font-size: 1.5rem;
+    padding: 4rem 0;
+    float:right;
+    width:50%;
+}
+#subbtn:hover
+{
+    border: solid rgb(245, 80, 107);
+    color:rgb(245, 80, 107);
+}
+#subbtn:visited
+{
+    border: solid rgb(24, 80, 107);
+    color:rgb(24, 80, 107);
+}
+
+/* mrdia queries */
+@media (max-width:555px)
+{
+    html
+    {
+        font-size: 50%;
+    }
+    .navbar .logo,.navbar .navitems
+    {
+        float:none;
+        text-align:center;
+        display: block;
+        width:100%;
+    }
+    .details,.contactform
+    {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    .instruct .le,.instruct .ri
+    {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    .banner .conbtn,.banner .que
+    {
+        float: none;
+        display: inline-block;
+    }
+}
+@media(max-width:854px){
+    .part{
+        float:none;
+        width:100%;
+        margin-top: 2rem;
+    }
+    .boxwrapper
+    {
+        box-shadow: none;
+    }
+    .feature .part1,.feature .part2,.feature .part3
+    {
+        box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.151);
+    }
+}
+@media(max-width:1117px)
+{
+    .row .img-box,.row .text
+    {
+        float:none;
+        width:100%;
+        display: block;
+    }
+    .row{
+        height: auto;
+    }
+    
+}
